@@ -23,10 +23,6 @@ class Solution {
         }
         tail.next = head;
         k = k % count;
-        if(k == 0 ){
-            tail.next = null;
-            return head;
-        }
         for(int i =0 ; i< count - k-1 ; i++){
             temp = temp.next;
         }
