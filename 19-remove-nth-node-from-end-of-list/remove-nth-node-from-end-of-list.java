@@ -14,10 +14,10 @@ class Solution {
          {
             return null;
          }
-         int c=0;
+         int c=1;
          ListNode tail=head;
          
-         while(tail!=null)
+         while(tail.next!=null)
          {
             c++;
             tail=tail.next;
